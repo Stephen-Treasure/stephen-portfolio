@@ -1,0 +1,105 @@
+* {
+  margin: 0px;
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.container {
+  background-size: 100%;
+  height: 100vh;
+}
+.container--one {
+  background-color: rgb(21, 23, 34);
+}
+.container--two {
+  background-color: #202438;
+}
+.container--three {
+  background-color: rgb(21, 23, 34);
+}
+.container--four {
+  background-color: #202438;
+}
+
+header {
+  text-align: center;
+  font-size: 400%;
+  color: rgba(255, 255, 255, 0.7921568627);
+}
+
+nav > ul > li > a {
+  color: rgba(255, 255, 255, 0.7921568627);
+  margin: 10px;
+  padding: 6px;
+  font-size: larger;
+  text-decoration: none;
+  border-radius: 20px;
+  border: 2px solid rgb(255, 255, 255);
+  align-items: flex-end;
+}
+@media only screen and (max-width: 576px) {
+  nav > ul > li > a {
+    font-size: smaller;
+    width: 100%;
+  }
+}
+
+a:hover {
+  color: white;
+}
+
+nav > ul {
+  list-style-type: none;
+  height: 40px;
+  margin-top: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.header {
+  color: rgba(255, 255, 255, 0.7921568627);
+}
+
+.linkHeader {
+  color: rgba(255, 255, 255, 0.7921568627);
+  display: flex;
+  justify-content: end;
+  margin: 0px;
+}
+
+.arrow {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  margin-right: 20px;
+  margin-left: 0px;
+  padding: 20px;
+  transform: rotate(-135deg);
+}
+
+@media only screen and (max-width: 576px) {
+  h1 {
+    font-size: smaller;
+    width: 100%;
+  }
+}
+
+div > p > a > img {
+  height: 100px;
+  width: 100px;
+}
+
+#gmailImg {
+  height: 75px;
+  width: 100px;
+}
+
+div > p > a {
+  color: rgba(255, 255, 255, 0.7921568627);
+  display: flexbox;
+}
+
+div > p {
+  margin-bottom: 100px;
+}

@@ -1,0 +1,18 @@
+@use "./palette";
+
+@mixin background-color-modifier {
+    &--one{
+        //background-color: #020402;
+        background-color: rgb(21, 23, 34);
+    }
+    &--two{
+        //background-color: rgb(21, 23, 34);
+        background-color: palette.$color-one;
+    }
+    &--three{
+        background-color: rgb(21, 23, 34);
+    }
+    &--four{
+        background-color: palette.$color-one;
+    }
+}
