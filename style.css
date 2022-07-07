@@ -20,6 +20,10 @@
 .container--four {
   background-color: #202438;
 }
+.container--four div > p {
+  display: grid;
+  justify-content: center;
+}
 
 header {
   text-align: center;
