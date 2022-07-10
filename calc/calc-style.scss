@@ -1,0 +1,30 @@
+@use "./module/button.scss";
+
+* {
+    margin: 0px;
+}
+
+.title {
+    margin: 10px;
+    background-color: #1c1c1c;
+    color: #d4d4d2;
+    width: 170px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.container {
+    margin: 100px;
+    justify-content: center;
+    border: 2px solid;
+    width: 30%;
+    background-color: #1c1c1c;
+    border-radius: 10px;
+}
+
+td {
+    padding: 0px;
+}
+td {
+    padding: 0px;
+}

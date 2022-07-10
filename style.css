@@ -20,6 +20,11 @@
 .container--four {
   background-color: #202438;
 }
+.container--three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .container--four div > p {
   display: grid;
   justify-content: center;
@@ -31,38 +36,15 @@ header {
   color: rgba(255, 255, 255, 0.7921568627);
 }
 
-nav > ul > li > a {
-  color: rgba(255, 255, 255, 0.7921568627);
-  margin: 10px;
-  padding: 6px;
-  font-size: larger;
-  text-decoration: none;
-  border-radius: 20px;
-  border: 2px solid rgb(255, 255, 255);
-  align-items: flex-end;
-}
-@media only screen and (max-width: 576px) {
-  nav > ul > li > a {
-    font-size: smaller;
-    width: 100%;
-  }
-}
-
 a:hover {
   color: white;
 }
 
-nav > ul {
-  list-style-type: none;
-  height: 40px;
-  margin-top: 400px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-}
-
 .header {
   color: rgba(255, 255, 255, 0.7921568627);
+  font-size: 400%;
+  text-align: center;
+  font-weight: 900;
 }
 
 .linkHeader {
@@ -70,16 +52,6 @@ nav > ul {
   display: flex;
   justify-content: end;
   margin: 0px;
-}
-
-.arrow {
-  border: solid white;
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  margin-right: 20px;
-  margin-left: 0px;
-  padding: 20px;
-  transform: rotate(-135deg);
 }
 
 @media only screen and (max-width: 576px) {
@@ -106,4 +78,85 @@ div > p > a {
 
 div > p {
   margin-bottom: 100px;
+}
+
+nav {
+  position: fixed; /* Make it stick/fixed */
+  right: 0px;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+li {
+  margin: 20px;
+  text-align: center;
+}
+
+.nav__bar {
+  color: rgba(255, 255, 255, 0.7921568627);
+  margin: 5px;
+  padding: 6px;
+  font-size: larger;
+  text-decoration: none;
+  border-radius: 20px;
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.skills-container {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7921568627);
+}
+
+.skills-header {
+  font-size: 300%;
+  font-weight: bolder;
+  margin-bottom: 0px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7921568627);
+}
+
+.about--text {
+  color: rgba(255, 255, 255, 0.7921568627);
+  margin: 10px;
+  font-size: 150%;
+}
+.about--text__icon {
+  font-size: 400%;
+  margin: 50px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  text-align: center;
+}
+.about--text__desc {
+  font-size: 100%;
+  margin-top: 0px;
+  margin-left: 20px;
+}
+
+.fa-brands {
+  margin: 20px;
+  justify-content: center;
+}
+
+.placeholder {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  border: 2px solid black;
+  height: 80vh;
+  width: 130vh;
+}
+
+table {
+  border: 2px solid black;
+  height: 20vh;
+  width: 30vh;
+  margin: 10px;
+}
+
+#projectLink {
+  background-color: rgb(21, 23, 34);
 }
